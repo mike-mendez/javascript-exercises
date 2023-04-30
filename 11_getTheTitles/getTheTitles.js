@@ -1,5 +1,11 @@
-const getTheTitles = function() {
+const getTheTitles = (array) => {
+    let answer = [];
 
+    array.forEach(element => {
+        answer.push(element.title);
+    });
+
+    return answer;
 };
 
 // Do not edit below this line
